@@ -4,7 +4,7 @@ import { Person } from '../schemas/Person'
 import httpClient from '../utils/api'
 
 
-@Resolver((of) => Person)
+@Resolver(() => Person)
 export class PeopleResolver {
     private people: Person[] = []
     private peopleSearch: Person[] = [] 
