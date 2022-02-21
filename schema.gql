@@ -27,8 +27,8 @@ type Person {
 }
 
 type Query {
-  getPeople(pageNumber: Float = 1): [Person!]!
-  searchPerson(search: String = ""): [Person!]!
+  getPeople(pageNumber: Float = 0, search: String = ""): [Person!]!
+  getPerson(person: Float!): Person!
 }
 
 type Specie {
