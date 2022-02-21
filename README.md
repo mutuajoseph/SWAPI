@@ -3,11 +3,12 @@
 Follow the following steps to successfully execute the app (both server and client):
 
 #### BACKEND
-1. npm install
+`1. npm install`
 
 #### CLIENT
-1.cd swapi-client
-2. npm install
+`1.cd swapi-client`
+`2. npm install`
+
 
 ### Start the application
 
