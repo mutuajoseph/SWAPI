@@ -12,7 +12,7 @@ export class PeopleResolver {
 
     @Query(() => [Person])
     async getPeople(
-        @Arg("pageNumber", { defaultValue: 0 }) pageNumber: number,
+        @Arg("pageNumber", { defaultValue: 1 }) pageNumber: number,
         @Arg("search", { defaultValue: '' }) search: string,
     ): Promise<Person[]> {
 
